@@ -1,0 +1,62 @@
+.data 
+
+	input: .asciiz "Input: "
+	output: .asciiz "The factorial is: "
+	number: .word 0 
+	answer: .word 0 
+
+.globl main
+.text 
+	main:
+		#display input on screen
+		li $v0, 4
+		la $a0, input
+		syscall
+		 
+		#get input from user 
+		li $v0, 5
+		syscall 
+		
+		sw $v0, number #store user's input
+		
+		lw $a0, number 
+		jal factorial #call the function
+		sw $v0, answer #store returned value from factorial into answer
+		
+		li $v0, 4 #display output message
+		la $a0, output 
+		syscall 
+		
+		li $v0, 1
+		lw $a0, answer
+		syscall 
+		
+		#exit 
+		li $v0, 10
+		syscall 
+		
+.globl factorial 
+
+	factorial:
+	
+	 	  addi $sp, $sp, -8 
+	 	  sw $ra, ($sp) 
+	 	  sw $s0, 4($sp)
+	 	  
+	 	  #base case (if x = 0) 
+	 	  li $v0, 1
+	 	  beq $a0, 0, factorialEnd
+	 	  
+	 	  
+	 	  move $s0, $a0
+	 	  addi $a0, $a0, -1 #subtract 1 out of the argument 
+	 	  jal factorial #recursion 
+	 	  
+	 	  mul $v0, $s0, $v0 #puts the factorial in the results register 
+	 	  
+	 factorialEnd: 
+	 
+	 	 lw $ra, ($sp)
+	 	 lw $s0, 4($sp)
+	 	 addi $sp, $sp, 8 #because we subtracted 8 from the stack in factorial function 
+	 	 jr $ra	#return  	  	 

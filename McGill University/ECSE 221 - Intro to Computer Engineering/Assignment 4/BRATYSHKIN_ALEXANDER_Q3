@@ -1,0 +1,123 @@
+.data 
+	array: .space 16
+	a: .asciiz "Enter A: "
+	b: .asciiz "Enter B: "
+	c: .asciiz "Enter C: "
+	d: .asciiz "Enter D: "
+	output: .asciiz "(A x B) + (C x D) =  "
+	errorMessage: .asciiz "Your input has to be from 32767 to -32766!\n" 
+	
+.text 
+
+.globl main 
+
+main: 
+	li $t0, 0
+	
+	#print string a 
+	li $v0, 4 
+	la $a0, a 
+	syscall 
+	
+	addi $t0, $zero, 0 
+	
+	#get input A from user 
+	li $v0, 5
+	syscall 
+	slti $t1, $v0, 32767	#checks if the input is bigger than 2^15-1, jumps to Invalid in that case
+	beq $t1, $zero, Invalid		
+	slti $t1, $v0, -32766	#checks if the input is bigger than 2^15-1, jumps to error in that case
+	beq $t1, 1, Invalid		
+	sw $v0, array($t0) #stores the content of $v0 in $t0
+	addi $t0, $t0, 4 #add byte 
+	
+	#print string b 
+	li $v0, 4 
+	la $a0, b 
+	syscall 
+	
+	#get input B from user 
+	li $v0, 5
+	syscall 
+	slti $t1, $v0, 32767	
+	beq $t1, $zero, Invalid		
+	slti $t1, $v0, -32766	
+	beq $t1, 1, Invalid		
+	sw $v0, array($t0) 
+	addi $t0, $t0, 4 
+	
+	#print string c 
+	li $v0, 4 
+	la $a0, c 
+	syscall 
+	
+	#get input C from user 
+	li $v0, 5
+	syscall 
+	slti $t1, $v0, 32767	
+	beq $t1, $zero, Invalid		
+	slti $t1, $v0, -32766	
+	beq $t1, 1, Invalid		
+	sw $v0, array($t0) 
+	addi $t0, $t0, 4
+
+	#print string d
+	li $v0, 4 
+	la $a0, d 
+	syscall 
+	
+	#get input D from user 
+	li $v0, 5
+	syscall 
+	slti $t1, $v0, 32767	
+	beq $t1, $zero, Invalid		
+	slti $t1, $v0, -32766	
+	beq $t1, 1, Invalid		
+	sw $v0, array($t0) 
+	addi $t0, $t0, 4 
+	
+	#load counter to 0
+	addi $t6, $zero, 0 
+		
+	#load two temporary values stored in indices 0 and 4 	
+	lw $t1, array($t6)
+	addi $t6, $t6, 4
+	lw $t2, array($t6)
+	
+	#multiply the two values and store in $t1 
+	mult  $t1, $t2
+	mflo  $t1
+	
+	#load two temporary values stored in indices 8 and 12 	
+	addi $t6, $t6, 4
+	lw $t2, array($t6)
+	addi $t6, $t6, 4
+	lw $t3, array($t6)
+	
+ 	#multiply the two values and store in $t2 	
+	mult  $t2, $t3
+	mflo  $t2
+	
+	add $t1, $t1, $t2 #add the products of $t1 and $t2 together  
+	
+	#display string output
+	li $v0, 4 
+	la $a0, output 
+	syscall 
+	
+	#display the output 
+	li $v0, 1
+	add $a0, $t1, 0 
+	syscall 
+	j Exit #jump to Exit
+	
+Invalid:
+	#message prompt for A
+	li $v0, 4	
+	la $a0, errorMessage	
+	syscall		
+	j main
+	
+Exit:
+	li $v0, 10		#sets the syscal to exit
+	syscall			#exits the program

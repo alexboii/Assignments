@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Assignment 5 Project" default="execute" >
+
+
+	<property name="jdk.version" value="1.7" />
+	<property name="src.dir" location="src"/>
+	<property name="build.dir" location="build"/>
+	<property name="link.dir" location="link"/>
+	<property name="test.build.dir" value="build/test" />
+	<property name="test.src.dir" value="test" />
+
+
+	<target name="info">
+		<echo>Welcome to Alex Bratyshkin's (260684228) Ant File for Assignment 5</echo>
+		<echo>You are using JDK Version ${ant.java.version}</echo>
+	</target>
+
+	<path id="classpath.base" />
+
+
+	<path id="classpath.test">
+		<pathelement location="lib/junit.jar" />
+		<pathelement location="lib/hamcrest-core-1.3.jar" />
+		<pathelement location="${build.dir}"/>
+		<path refid="classpath.base" />
+	</path>
+
+
+	<target name="init" depends="info">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${test.build.dir}"/>
+		<mkdir dir="${link.dir}"/>
+
+	</target>
+
+	<target name="compile" depends="init"
+          description="compile the source">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src.dir}" destdir="${build.dir}" source="${jdk.version}" target="${jdk.version}">
+			<classpath refid="classpath.base"/>
+		</javac>
+		<javac srcdir="${test.src.dir}" destdir="${test.build.dir}" includeantruntime="false">
+			<classpath refid="classpath.test"/>
+		</javac>
+	</target>
+
+	<target name="link" depends="compile"
+          description="generate the distribution">
+		<!-- Create the distribution directory -->
+		<mkdir dir="${link.dir}/lib"/>
+
+		<!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+		<jar jarfile="${link.dir}/lib/Assignment5.jar" basedir="${build.dir}">
+			<manifest>
+				<attribute name="Main-Class" value="application.CompApp"/>
+			</manifest>
+		</jar>
+	</target>
+
+
+	<target name="test" depends="link">
+		<junit haltonfailure="true" printsummary="true">
+			<classpath>
+				<path refid="classpath.test" />
+				<pathelement location="${test.build.dir}"/>
+			</classpath>
+			<formatter type = "brief" usefile = "false" />
+			<formatter type="plain" usefile="false" />
+			<test name="computation.AllTests"/>
+		</junit>
+	</target>
+
+
+
+	<target name="clean" 
+        depends = "init" description="clean up">
+		<!-- Delete the ${build} and ${dist} directory trees -->
+		<delete dir="${build.dir}"/>
+		<delete dir="${link.dir}"/>
+	</target>
+
+	<target name="execute" depends="test">
+		<java jar="${link.dir}/lib/Assignment5.jar" fork="true"/>
+	</target>
+
+
+</project>
