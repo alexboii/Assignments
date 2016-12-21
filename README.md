@@ -5,6 +5,6 @@ In this repository, you can find a compilation of most of the assignments that I
 
 ___
 
-##<img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="Computer Hope">
+##<div align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="Computer Hope"></div>
 
 Bachelor of Software Engineering at McGill University. 
