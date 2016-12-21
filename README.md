@@ -49,3 +49,7 @@ The point of this assignment's [programming part](https://github.com/alexboii/As
 ###[Assignment 3](https://github.com/alexboii/Assignments/tree/master/McGill%20University/COMP%20250%20-%20Intro%20to%20Computer%20Science/Assignment%203) 
 
 The [programming question of this assignment](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20250%20-%20Intro%20to%20Computer%20Science/Assignment%203/MergeSortNonRecursive.java) presents a version of the [Merge Sort algorithm] (https://en.wikipedia.org/wiki/Merge_sort) which mimics recursion by implementing a stack to keep track of the value of variables during the execution of recursive methods, in the same way that the [Java Virtual Machine does it](https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-2.html). 
+
+###[Assignment 4](https://github.com/alexboii/Assignments/tree/master/McGill%20University/COMP%20250%20-%20Intro%20to%20Computer%20Science/Assignment%204) 
+
+For the [first question](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20250%20-%20Intro%20to%20Computer%20Science/Assignment%204/expressionTreeNode.java) of this assignment, we were asked to complete two methods, one which evaluated a symbolic expressions, and another one which returned the derivative of a given symbolic expressions. The purpose of this assignment was to familiarize us with [trees](https://en.wikipedia.org/wiki/Tree_(data_structure)) as an abstract data type.   
