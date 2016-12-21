@@ -5,9 +5,9 @@ In this repository, you can find a compilation of most of the programming assign
 
 ___
 
-##<div align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="Computer Hope"></div>
+##<div align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="Computer Hope">
 
-Bachelor of Software Engineering at McGill University. To view the curriculum, please [click here](http://www.mcgill.ca/ece/programs/undergrad/information/se/2015-2016-software-engineering-7-semester-curriculum). 
+Bachelor of Software Engineering at McGill University. To view the curriculum, please [click here](http://www.mcgill.ca/ece/programs/undergrad/information/se/2015-2016-software-engineering-7-semester-curriculum).</div> 
 
 ##[COMP 206](http://www.cs.mcgill.ca/~cs206/)
 
