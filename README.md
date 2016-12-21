@@ -37,3 +37,7 @@ The pedagogical objective of this assignment was to "[implement] a larger softwa
 <i>"An introduction to the design of computer algorithms, including basic data structures, analysis of algorithms, and establishing correctness of programs. Overview of topics in computer science."</i> 
 
 <i>For the most part, the assignments for this class were in written form, although the ones below included parts in which we had to do some coding.</i>
+
+###[Assignment 1](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20250%20-%20Intro%20to%20Computer%20Science/Assignment%201/StudentList.java) 
+
+In this assignment, [the programming part](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20250%20-%20Intro%20to%20Computer%20Science/Assignment%201/StudentList.java) consisted of solving list-intersection problems by implementing four different algorithms, one which relied on nested for-loops, another one that used binary search, another one which was based on a sort-first approach with parallel pointers, and finally another one that used the merge-and-sort technique. Then, we had to compare the running times of each algorithm in order to familiarize ourselves with the big O notation.   
