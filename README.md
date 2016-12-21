@@ -7,7 +7,7 @@ ___
 
 ##<div align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="Computer Hope"></div>
 
-<div align="center">Bachelor of Software Engineering at McGill University. To view the curriculum, please <a href="http://www.mcgill.ca/ece/programs/undergrad/information/se/2015-2016-software-engineering-7-semester-curriculum">click here</a></div>.
+<div align="center"><b>Bachelor of Software Engineering at McGill University. To view the curriculum, please <a href="http://www.mcgill.ca/ece/programs/undergrad/information/se/2015-2016-software-engineering-7-semester-curriculum">click here</a></b></div>.
 
 ##[COMP 206](http://www.cs.mcgill.ca/~cs206/)
 
