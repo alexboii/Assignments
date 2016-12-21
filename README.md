@@ -6,4 +6,4 @@ In this repository, you can find a compilation of most of the assignments that I
 
 
 
-![McGill University](http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png)
+##![McGill University](http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png)
