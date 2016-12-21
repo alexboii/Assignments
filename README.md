@@ -9,6 +9,6 @@ ___
 
 Bachelor of Software Engineering at McGill University. To view the curriculum, please [click here](http://www.mcgill.ca/ece/programs/undergrad/information/se/2015-2016-software-engineering-7-semester-curriculum). 
 
-###[COMP 206](http://www.cs.mcgill.ca/~cs206/)
+##[COMP 206](http://www.cs.mcgill.ca/~cs206/)
 
 <i>"Comprehensive overview of programming in C, use of system calls and libraries, debugging and testing of code; use of developmental tools like make, version control systems."</i> 
