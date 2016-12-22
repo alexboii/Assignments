@@ -9,7 +9,7 @@ ___
 <div align="center"><b>Bachelor of Software Engineering at McGill University. To view the curriculum, please <a href="http://www.mcgill.ca/ece/programs/undergrad/information/se/2015-2016-software-engineering-7-semester-curriculum">click here.</a></b>
 </div>
 
-##[COMP 206](http://www.cs.mcgill.ca/~cs206/)
+##[COMP 206 - Software Systems](http://www.cs.mcgill.ca/~cs206/)
 
 <i>"Comprehensive overview of programming in C, use of system calls and libraries, debugging and testing of code; use of developmental tools like make, version control systems."</i> 
 
@@ -33,7 +33,7 @@ The pedagogical objective of this assignment was to "[learn]  basic  Python  pro
 
 The pedagogical objective of this assignment was to "[implement] a larger software system that includes components from the web, C libraries written by others, as well as [my] own code written in Python in order to produce a functional integrated system." In the [first question](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20206%20-%20Intro%20to%20Software%20Systems/Assignment%205/q1_image_filter.py), we had to write a Python program with the use of ctypes which would apply filters to an input image. Then, [the second question](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20206%20-%20Intro%20to%20Software%20Systems/Assignment%205/q2_filter_with_history.py) extended the functionality of the first question by implementing an operation history with the help of Python's pickle module, which allowed the user to load, undo and redo filter applications for a given image. [The third question](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20206%20-%20Intro%20to%20Software%20Systems/Assignment%205/q3_cgi_filter.py) was simply an implementation of the same program, but adapted to Python CGI. A running web version can be found [here](http://www.cs.mcgill.ca/~abraty/A5Q3_template.html).
 ##
-##[COMP 250](http://www.cs.mcgill.ca/~jeromew/comp250.html)
+##[COMP 250 - Introduction to Computer Science](http://www.cs.mcgill.ca/~jeromew/comp250.html)
 <i>"An introduction to the design of computer algorithms, including basic data structures, analysis of algorithms, and establishing correctness of programs. Overview of topics in computer science."</i> 
 
 <i>For the most part, the assignments for this class were in written form, although the ones below included parts in which we had to do some coding.</i>
@@ -57,3 +57,8 @@ For the [first question](https://github.com/alexboii/Assignments/blob/master/McG
 ###[Assignment 5](https://github.com/alexboii/Assignments/tree/master/McGill%20University/COMP%20250%20-%20Intro%20to%20Computer%20Science/Assignment%205) 
 
 I found the [programming part](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20250%20-%20Intro%20to%20Computer%20Science/Assignment%205/searchEngine.java) of this assignment to be the most challenging of the course, but at the same time the most interesting; this same sentiment was shared by several of my classmates. In short, this  program is a web search engine which was designed to imitate [Google's PageRank algorithm](https://en.wikipedia.org/wiki/PageRank). It performs graph traversals on [McGill School of Computer Science's website](https://www.cs.mcgill.ca/) with the use of the [depth-first search algorithm](https://en.wikipedia.org/wiki/Depth-first_search), and also provides a method which computes the page rank of each vertex in the aforementioned grap, among many other things.  
+
+##
+##[ECSE 211 - Design Principles & Methods](http://www.mcgill.ca/study/2016-2017/courses/ECSE-211)
+
+<i>A course on -- as its name aptly betrays -- design and documentation in which we had to write an exhaustive amount of paperwork, but we also got to build robots using Lego Mindstorm kits and the <a href= http://www.lejos.org/>Lejos API</a>. This is the most dreaded course McGill's ECSE department has to offer.</i> 
