@@ -130,4 +130,30 @@ ___
 
 <i>The main objective of this course was to cover topics in programming such as arrays, writing classes, inheritance, more advanced input/output, exceptions, recursion. It introduced the students to data structures emphasizing pointers and linked lists. A lot of content from this course overlapped with the COMP 250 class I took at McGill.</i>
 
+###[Assignment 1](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-202%20%E2%80%93%20Data%20Structures%20%26%20Object-Oriented%20Programming/Assignment%201) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
+
+In this assignment, we were asked to model an imaginary bag of a fixed number of things. This bag could contain anywhere from book titles to simple integers. Several manipulations could be casted on the contents of this bag: a bag can get, set, reverse, and print the items in the bag. I believe this assignment was intended to better make us understand arrays and objects. 
+
+###[Assignment 2](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-202%20%E2%80%93%20Data%20Structures%20%26%20Object-Oriented%20Programming/Assignment%202) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
+
+This assignment introduced us to key OOP concepts such as encapsulation, inheritance and polymorphism. We were asked to  implement a simple banking system that consisted of two types of bank accounts: checking and savings. Both types differed in certian criteria but their overall behaviour was similar. 
+
+###[Assignment 3](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-202%20%E2%80%93%20Data%20Structures%20%26%20Object-Oriented%20Programming/Assignment%203) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
+
+The main purpose of this assignment was to let us gain experience working with Java's [ArrayList](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html) and [LinkedList](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) classes. We were required to write an interactive program that allowed the user to create and manage a contacts list.
+
+###[Assignment 4](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-202%20%E2%80%93%20Data%20Structures%20%26%20Object-Oriented%20Programming/Assignment%204) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
+
+This assignment tested us on our understanding of stacks and queues. We had to write a program that determined whether the brackets in a given expression were well-balanced, i.e. they are properly matched and nested
+
+###[Assignment 5](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-202%20%E2%80%93%20Data%20Structures%20%26%20Object-Oriented%20Programming/Assignment%204) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
+
+In this assignment, we were able to further explore the concept of recursion. We were asked to implement recursive solutions to a given set of problems which included exercises such as writing a method that computed multiplication recursively, writing a recursive boolean method which searched an array for a specified value, coming up with a recursive way of reversing a string, writing a recursive method that returned the biggest element of an array, coding a recursive palindrome detector and, finally, writing a method that recursively counted the frequency of each character in a character array. 
+
+##
+##[420-203 - Program Development for a Graphical Environment](http://www.vaniercollege.qc.ca/csm/courses/420-203-program-development-for-a-graphical-environment/) 
+
+<i>The main objective of this course was to introduce its students to the fundamentals for designing and developing graphical user interface (GUI) applications with the help of the Java Swing widget toolkit and the JavaFX software platform. </i>
+
+
 
