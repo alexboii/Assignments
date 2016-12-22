@@ -61,4 +61,4 @@ I found the [programming part](https://github.com/alexboii/Assignments/blob/mast
 ##
 ##[ECSE 211 - Design Principles & Methods](http://www.mcgill.ca/study/2016-2017/courses/ECSE-211)
 
-<i>A course on -- as its name aptly betrays -- design and documentation in which we had to write an exhaustive amount of paperwork, but we also got to build robots using Lego Mindstorm kits and the <a href= http://www.lejos.org/>Lejos API</a>. This is the most dreaded course McGill's ECSE department has to offer.</i> 
+<i>A course on -- as its name aptly betrays -- design and documentation in which we had to write an exhaustive amount of paperwork, but we also got to build robots using Lego Mindstorm kits and the <a href= http://www.lejos.org/>Lejos API</a>. This is the most dreadful course McGill's ECSE department has to offer.</i> 
