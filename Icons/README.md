@@ -1,1 +1,1 @@
-##Icons courtesy of [Dev Incons](https://github.com/konpa/devicon/)
+Icons courtesy of [Dev Icons](https://github.com/konpa/devicon/)
