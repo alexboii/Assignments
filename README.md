@@ -1,3 +1,7 @@
+<header>
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+</header> 
+
 #Assignments 
 
 In this repository, you can find a compilation of most of the programming assignments that I have completed over the span of my (not-yet-completed) academic career. Please use this README file to browse through the repository, as I have tried my best to make the list as comprehensive as possible. I have hyperlinked the assignments to their respective location in this folder, and I have also included brief descriptions for each assignment and course. I hope that this reposity will br able to give you an idea of my progression as a developer. 
@@ -12,7 +16,7 @@ ___
 
 <i>"Comprehensive overview of programming in C, use of system calls and libraries, debugging and testing of code; use of developmental tools like make, version control systems."</i> 
 
-###[Assignment 1](https://github.com/alexboii/Assignments/tree/master/McGill%20University/COMP%20206%20-%20Intro%20to%20Software%20Systems/Assignment%201) [BASH] 
+###[Assignment 1](https://github.com/alexboii/Assignments/tree/master/McGill%20University/COMP%20206%20-%20Intro%20to%20Software%20Systems/Assignment%201) <i class="devicon-java-plain"></i>
 
 The purpose of this assignment was to get us accustomed to writing BASH scripts. The [second part of the assignment](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20206%20-%20Intro%20to%20Software%20Systems/Assignment%201/q2.bash) consisted of writing a script that would endlessly open a given list of images in a certain order until manually interrupted. If an image is closed, the script has to reopen it. The [third part](https://github.com/alexboii/Assignments/blob/master/McGill%20University/COMP%20206%20-%20Intro%20to%20Software%20Systems/Assignment%201/q3.bash) was about sorting animals according to the attributes specified by the user (weight, length, alphabetical). Two outputs had to be produced: one with a sorted list of animal names and another one with a sorted list of images. 
 
@@ -100,6 +104,15 @@ The [second question](https://github.com/alexboii/Assignments/blob/master/McGill
 
 <i>The main objective of this course was "to introduce students to the process of software engineering". In this course, we also had a semester-long project in which we had to design a management system for food trucks. The source code to its Android implementation can be found here, and the source code to its Swing implementation can be found here. A lot of the assignments on this course focused on diagrams and written responses, though there was also a decent portion of programming involved.</i>
 
-###[Assignment 3](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%201) [JAVA / PHP]
+###[Assignment 1](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%201) [JAVA / PHP]
 
 Here, we had to build an event registration application which allows the user to create participants and events, as well registering the created participants to the created events. The assignment was an introductory exercise to concepts such as unit testing, persistence and domain modeling, as well as the [MVC architectural style](https://www.tutorialspoint.com/struts_2/basic_mvc_architecture.htm). The program was built on multiple platforms, including [Java Swing](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%201/Swing%20Application/EventRegistration), [Android] https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%201/Android%20Application and [PHP](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%201/Web%20Application).     
+
+
+###[Assignment 3](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%203) [JAVA / PHP]
+
+In this assignment, we had to apply the [Strategy design](https://sourcemaking.com/design_patterns/strategy) pattern to a transaction program in which customers had three different ways of earning loyalty points.
+
+###[Assignment 5](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%205) [XML]
+
+The purpose of this assignment was to make us understand how build tools work. Here, we were required to create a [build.xml file](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%205/build.xml) using Apache Ant "to automate the software build process" for a source code that was provided to us. The build.xml had to create a build directory, compile the sources files, produce a .jar file, run all tests for the code, clean up and then execute the program. 
