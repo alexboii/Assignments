@@ -1,23 +1,33 @@
 <header>
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 </header> 
-
-#Assignments 
-
-In this repository, you can find a compilation of most of the programming assignments that I have completed over the span of my (not-yet-completed) academic career. Please use this README file to browse through the repository, as I have tried my best to make the list as comprehensive as possible. I have hyperlinked the assignments to their respective location in this folder, and I have also included brief descriptions for each assignment and course. I hope that this reposity will br able to give you an idea of my progression as a developer. 
-___
 #Table of Contents
 <ul>
+  <li> <a href="#assignments"> General Purpose Description</a> </li>
   <li> McGill University
       <ol>
       <li><a href="#comp-206---software-systems">COMP 206 - Software Systems</a>
-      
+      <li><a href="#comp-250---introduction-to-computer-science">COMP 250 - Introduction to Computer Science</a>
+      <li><a href="#ecse-211---design-principles--methods">ECSE 211 - Design Principles and Methods</a>
+      <li><a href="#ecse-221---intro-to-computer-engineering">ECSE 221 - Intro to Computer Engineering</a>
+      <li><a href="#ecse-321---intro-to-software-engineering">ECSE 321 - Intro to Software Engineering</a>
      </ol>
+  </li>
+  <li> Vanier College 
+      <ol>
+      <li><a href="#420-202---data-structures--object-oriented-programming">420-202 - Data Structures & Object-Oriented Programming</a>
+      <li><a href="#420-203---program-development-for-a-graphical-environment">420-203 - Program Development for a Graphical Environment</a>
+      </ol>
   </li>
 
 </ul>
 
 ___
+#Assignments 
+
+In this repository, you can find a compilation of most of the programming assignments that I have completed over the span of my (not-yet-completed) academic career. Please use this README file to browse through the repository, as I have tried my best to make the list as comprehensive as possible. I have hyperlinked the assignments to their respective location in this folder, and I have also included brief descriptions for each assignment and course. I hope that this reposity will br able to give you an idea of my progression as a developer. 
+___
+
 ##<div align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="McGill University"></div>
 
 <div align="center"><b>Bachelor of Software Engineering at McGill University. To view the curriculum, please <a href="http://www.mcgill.ca/ece/programs/undergrad/information/se/2015-2016-software-engineering-7-semester-curriculum">click here.</a></b>
