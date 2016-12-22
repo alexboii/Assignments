@@ -121,7 +121,7 @@ The purpose of this assignment was to make us understand how build tools work. H
 
 ___
 
-##[ ]<div align="center"><img src="https://www.collegesinstitutes.ca/wp-content/uploads/2015/11/VanierWordmarkRGB.jpg"  width="40%" height="40%" alt="Vanier College"></div>
+##<div align="center"><img src="https://www.collegesinstitutes.ca/wp-content/uploads/2015/11/VanierWordmarkRGB.jpg"  width="40%" height="40%" alt="Vanier College"></div>
 
 <div align="center"><b>DCS (DEC) in Computer Science & Mathematics from Vanier College. To view the curriculum, please <a href="http://www.vaniercollege.qc.ca/advising/files/200C0-grid-Fall-2016.pdf">click here.</a></b>
 </div>
