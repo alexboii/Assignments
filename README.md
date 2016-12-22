@@ -149,7 +149,7 @@ ___
 
 ##[420-202 - Data Structures & Object-Oriented Programming](http://www.vaniercollege.qc.ca/csm/courses/420-202-data-structures-object-oriented-programming/) 
 
-<i>The main objective of this course was to cover topics in programming such as arrays, writing classes, inheritance, more advanced input/output, exceptions, recursion. It introduced the students to data structures emphasizing pointers and linked lists. A lot of content from this course overlapped with the COMP 250 class I took at McGill.</i>
+<i>The main objective of this course was to cover topics in programming such as arrays, writing classes, inheritance, more advanced input/output, exceptions, recursion. It introduced the students to data structures emphasizing pointers and linked lists. A lot of content from this course overlapped with the <a href="#comp-250---introduction-to-computer-science">COMP 250 class I took at McGill.</a></i>
 
 ###[Assignment 1](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-202%20%E2%80%93%20Data%20Structures%20%26%20Object-Oriented%20Programming/Assignment%201) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
 
