@@ -155,5 +155,17 @@ In this assignment, we were able to further explore the concept of recursion. We
 
 <i>The main objective of this course was to introduce its students to the fundamentals for designing and developing graphical user interface (GUI) applications with the help of the Java Swing widget toolkit and the JavaFX software platform. </i>
 
+###[Assignment 1](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-203%20%E2%80%93%20Program%20Development%20for%20a%20Graphical%20Environment/Assignment%201) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
+
+This assignment asked up to program a Java application that would generate at random a bank transaction (an integer number from 1 to 4). If the random integer was 1, it would simply print the total balance in the account; 2 corresponded to a withdraw function, 3 to a deposit, and, if 4 was randomly generated, then the program would terminate. 
+
+###[Assignment 2](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-203%20%E2%80%93%20Program%20Development%20for%20a%20Graphical%20Environment/Assignment%202) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
+
+The objective of this assignment was to develop our capacity of "working with event-driven programming and user interfaces with several containers and embedding layouts holding GUI components such as text field boxes, labels, buttons, check boxes and radio buttons." The application allowed users to manage several investor portfolios through a graphical interface. 
+
+###[Assignments 3 & 4](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-203%20%E2%80%93%20Program%20Development%20for%20a%20Graphical%20Environment/Assignments%203%20%26%204/src) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
+
+These two assignments were coupled together because both of them had to be included in the same program. For the first part, we were asked to design a [Sudoku](https://en.wikipedia.org/wiki/Sudoku) game under the JavaFX framework. For the second part, we had to program a car race simulation, where the speed of each car would be randomly generated after the user signals the program to start the race. The user then sees an animation for each car, and at the end of the race, the user finds out who the winner is. 
+
 
 
