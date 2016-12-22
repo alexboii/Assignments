@@ -61,4 +61,13 @@ I found the [programming part](https://github.com/alexboii/Assignments/blob/mast
 ##
 ##[ECSE 211 - Design Principles & Methods](http://www.mcgill.ca/study/2016-2017/courses/ECSE-211)
 
-<i>A course on -- as its name aptly betrays -- design and documentation in which we had to write an exhaustive amount of paperwork, but we also got to build robots using Lego Mindstorm kits and the <a href= http://www.lejos.org/>Lejos API</a>. This is the most dreadful course McGill's ECSE department has to offer.</i> 
+<i>A course on -- as its name aptly betrays -- design and documentation in which we had to write an exhaustive amount of paperwork, but we also got to build robots using Lego Mindstorm kits and the <a href="http://www.lejos.org" />Lejos API</a>. This is the most dreadful course McGill's ECSE department has to offer. Below you can find the code for each different robot we had to build. The greater chunk of the course was allocated to building (but mostly documenting) a robot that would peform in a final competition. The source code for the final robot can be found <a href="https://github.com/alexboii/DPM-Final-Project"> here</a>.</i> 
+
+###[Lab 1](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20211%20-%20Design%20Principles%20and%20Methods/Lab%201) 
+
+In this lab, we were required to build a robot which would follow walls through means of two different techniques: [Bang-bang control](https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control) and [Proportional control](https://en.wikipedia.org/wiki/Proportional_control). 
+
+###[Lab 2](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20211%20-%20Design%20Principles%20and%20Methods/Lab%202)
+
+Here, we had to implement an odometer for the robot, in addition to an algorithm which would correct the readings on the odometer (and, consequently, the heading of the robot) with the help of a light sensor and black gridlines that were drawn on the floor.   
+
