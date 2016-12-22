@@ -71,3 +71,14 @@ In this lab, we were required to build a robot which would follow walls through 
 
 Here, we had to implement an odometer for the robot, in addition to an algorithm which would correct the readings on the odometer (and, consequently, the heading of the robot) with the help of a light sensor and black gridlines that were drawn on the floor.   
 
+###[Lab 3](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20211%20-%20Design%20Principles%20and%20Methods/Lab%203) 
+
+In this lab, we had to implement a navigation functionality for the robot, i.e. a way of making it travel to specified coordinates. Furthermore, the robot had to avoid obstacles in its path while still keeping the correct heading. 
+
+###[Lab 4](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20211%20-%20Design%20Principles%20and%20Methods/Lab%204) 
+
+The code in this lab accomplishes the task localization so that the robot can know its exact positioning relative to the competition floor. First, it performs an ultrasonic localization by retrieving the readings of the distances between itself and its adjacent walls in order to calibrate the odometer's angle relative to the competition floor. The robot then advances to the first intersection of two grid lines, reads four consecutive black line values and sets its new precise position relative to the board, i.e. the (0, 0) coordinate. 
+
+###[Lab 5](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20211%20-%20Design%20Principles%20and%20Methods/Lab%205) 
+
+This lab could be considered a synthesis of the functionalities implemented in the previous four labs. We had to build a robot which would be capable of localizing, finding a blue Styrofoam block, picking it up and bringing it to a designated drop-off zone, all while ensuring that it avoids all obstacles in its way. 
