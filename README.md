@@ -28,7 +28,7 @@ ___
 In this repository, you can find a compilation of most of the programming assignments that I have completed over the span of my (not-yet-completed) academic career. Please use this README file to browse through the repository, as I have tried my best to make the list as comprehensive as possible. I have hyperlinked the assignments to their respective location in this folder, and I have also included brief descriptions for each assignment and course. I hope that this reposity will br able to give you an idea of my progression as a developer. 
 ___
 
-##<div align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="McGill University"></div>
+##<div class="McGill" align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="McGill University"></div>
 
 <div align="center"><b>Bachelor of Software Engineering at McGill University. To view the curriculum, please <a href="http://www.mcgill.ca/ece/programs/undergrad/information/se/2015-2016-software-engineering-7-semester-curriculum">click here.</a></b>
 </div>
@@ -142,7 +142,7 @@ The purpose of this assignment was to make us understand how build tools work. H
 
 ___
 
-##<div align="center"><img src="https://www.collegesinstitutes.ca/wp-content/uploads/2015/11/VanierWordmarkRGB.jpg"  width="40%" height="40%" alt="Vanier College"></div>
+##<div class="Vanier" align="center"><img src="https://www.collegesinstitutes.ca/wp-content/uploads/2015/11/VanierWordmarkRGB.jpg"  width="40%" height="40%" alt="Vanier College"></div>
 
 <div align="center"><b>DCS (DEC) in Computer Science & Mathematics from Vanier College. To view the curriculum, please <a href="http://www.vaniercollege.qc.ca/advising/files/200C0-grid-Fall-2016.pdf">click here.</a></b>
 </div>
