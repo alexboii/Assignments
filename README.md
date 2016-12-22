@@ -7,7 +7,7 @@
 In this repository, you can find a compilation of most of the programming assignments that I have completed over the span of my (not-yet-completed) academic career. Please use this README file to browse through the repository, as I have tried my best to make the list as comprehensive as possible. I have hyperlinked the assignments to their respective location in this folder, and I have also included brief descriptions for each assignment and course. I hope that this reposity will br able to give you an idea of my progression as a developer. 
 ___
 
-##<div align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="Computer Hope"></div>
+##<div align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="McGill University"></div>
 
 <div align="center"><b>Bachelor of Software Engineering at McGill University. To view the curriculum, please <a href="http://www.mcgill.ca/ece/programs/undergrad/information/se/2015-2016-software-engineering-7-semester-curriculum">click here.</a></b>
 </div>
@@ -135,8 +135,19 @@ Here, we had to build an event registration application which allows the user to
 
 In this assignment, we had to apply the [Strategy design](https://sourcemaking.com/design_patterns/strategy) pattern to a transaction program in which customers had three different ways of earning loyalty points.
 
-###[Assignment 5](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%205) 
-
-<img src="https://github.com/alexboii/Assignments/blob/master/Icons/apache-plain.png" width="3%" height="3%">
+###[Assignment 5](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%205) &nbsp;                  <img src="https://github.com/alexboii/Assignments/blob/master/Icons/apache-plain.png" width="3%" height="3%">
 
 The purpose of this assignment was to make us understand how build tools work. Here, we were required to create a [build.xml file](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%205/build.xml) using Apache Ant "to automate the software build process" for a source code that was provided to us. The build.xml had to create a build directory, compile the sources files, produce a .jar file, run all tests for the code, clean up and then execute the program. 
+
+___
+
+##<div align="center"><img src="https://www.collegesinstitutes.ca/wp-content/uploads/2015/11/VanierWordmarkRGB.jpg"  width="40%" height="40%" alt="Vanier College"></div>
+
+<div align="center"><b>DCS (DEC) in Computer Science & Mathematics from Vanier College. To view the curriculum, please <a href="http://www.vaniercollege.qc.ca/advising/files/200C0-grid-Fall-2016.pdf">click here.</a></b>
+</div>
+
+##[420-202 - Data Structures & Object-Oriented Programming](http://www.vaniercollege.qc.ca/csm/courses/420-202-data-structures-object-oriented-programming/) 
+
+<i>The main objective of this course was to cover topics in programming such as arrays, writing classes, inheritance, more advanced input/output, exceptions, recursion. It introduced the students to data structures emphasizing pointers and linked lists. A lot of content from this course overlapped with the COMP 250 class I took at McGill.</i>
+
+
