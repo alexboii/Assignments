@@ -84,7 +84,7 @@ The code in this lab accomplishes the task localization so that the robot can kn
 This lab could be considered a synthesis of the functionalities implemented in the previous four labs. We had to build a robot which would be capable of localizing, finding a blue Styrofoam block, picking it up and bringing it to a designated drop-off zone, all while ensuring that it avoids all obstacles in its way. 
 
 ##
-###[ECSE 221 - Intro to Computer Engineering](https://www.mcgill.ca/study/2015-2016/courses/ecse-221) 
+##[ECSE 221 - Intro to Computer Engineering](https://www.mcgill.ca/study/2015-2016/courses/ecse-221) 
 
 <i>This course introduces the student to the low-level facet of computers in general. Most of the assignments in this class were either written or concerned the design of combinational and sequential circuits with the very outdated <a href="http://designworkssolutions.com/logicworks-5-windows/">Logicworks</a> design tool.</i>
 
@@ -92,6 +92,6 @@ This lab could be considered a synthesis of the functionalities implemented in t
 
 This [program](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20221%20-%20Intro%20to%20Computer%20Engineering/Assignment%201/num_2_bin.c) was my first exposure to the C programming language. Its purpose is very simple: it converts a given decimal number to its binary and hexadecimal equivalent. 
 
-###[Assignment 2](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20221%20-%20Intro%20to%20Computer%20Engineering/Assignment%204) [ASSEMBLY]
+###[Assignment 4](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20221%20-%20Intro%20to%20Computer%20Engineering/Assignment%204) [ASSEMBLY]
 
 The [second question](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20221%20-%20Intro%20to%20Computer%20Engineering/Assignment%204/BRATYSHKIN_ALEXANDER_Q2) in this assignment introduced us to the concept of function calls in the MIPS assembly language by writing code that, when executed, would return the factorial of a given input. The [third question](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20221%20-%20Intro%20to%20Computer%20Engineering/Assignment%204/BRATYSHKIN_ALEXANDER_Q3) was slightly trickier, since we had to create a program which would evaluate expressions in the right order of operations. 
