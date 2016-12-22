@@ -1,7 +1,6 @@
 #Assignments 
 
 In this repository, you can find a compilation of most of the programming assignments that I have completed over the span of my (not-yet-completed) academic career. Please use this README file to browse through the repository, as I have tried my best to make the list as comprehensive as possible. I have hyperlinked the assignments to their respective location in this folder, and I have also included brief descriptions for each assignment and course. I hope that this reposity will br able to give you an idea of my progression as a developer. 
-
 ___
 
 ##<div align="center"><img src="http://royalvictoria.mcgill.ca/wp-content/uploads/2014/02/logo_video.png"  width="50%" height="50%" alt="Computer Hope"></div>
@@ -95,3 +94,12 @@ This [program](https://github.com/alexboii/Assignments/blob/master/McGill%20Univ
 ###[Assignment 4](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20221%20-%20Intro%20to%20Computer%20Engineering/Assignment%204) [ASSEMBLY]
 
 The [second question](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20221%20-%20Intro%20to%20Computer%20Engineering/Assignment%204/BRATYSHKIN_ALEXANDER_Q2) in this assignment introduced us to the concept of function calls in the MIPS assembly language by writing code that, when executed, would return the factorial of a given input. The [third question](https://github.com/alexboii/Assignments/blob/master/McGill%20University/ECSE%20221%20-%20Intro%20to%20Computer%20Engineering/Assignment%204/BRATYSHKIN_ALEXANDER_Q3) was slightly trickier, since we had to create a program which would evaluate expressions in the right order of operations. 
+
+##
+##[ECSE 321 - Intro to Software Engineering](http://www.mcgill.ca/study/2016-2017/courses/ECSE-321) 
+
+<i>The main objective of this course was "to introduce students to the process of software engineering". In this course, we also had a semester-long project in which we had to design a management system for food trucks. The source code to its Android implementation can be found here, and the source code to its Swing implementation can be found here. A lot of the assignments on this course focused on diagrams and written responses, though there was also a decent portion of programming involved.</i>
+
+###[Assignment 3](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%201) [JAVA / PHP]
+
+Here, we had to build an event registration application which allows the user to create participants and events, as well registering the created participants to the created events. The assignment was an introductory exercise to concepts such as unit testing, persistence and domain modeling, as well as the [MVC architectural style](https://www.tutorialspoint.com/struts_2/basic_mvc_architecture.htm). The program was built on multiple platforms, including [Java Swing](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%201/Swing%20Application/EventRegistration), [Android] https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%201/Android%20Application and [PHP](https://github.com/alexboii/Assignments/tree/master/McGill%20University/ECSE%20321%20-%20Intro%20to%20Software%20Engineering/Assignment%201/Web%20Application).     
