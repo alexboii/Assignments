@@ -174,7 +174,7 @@ In this assignment, we were able to further explore the concept of recursion. We
 ##
 ##[420-203 - Program Development for a Graphical Environment](http://www.vaniercollege.qc.ca/csm/courses/420-203-program-development-for-a-graphical-environment/) 
 
-<i>The main objective of this course was to introduce its students to the fundamentals for designing and developing graphical user interface (GUI) applications with the help of the Java Swing widget toolkit and the JavaFX software platform. </i>
+<i>The main objective of this course was to introduce its students to the fundamentals for designing and developing graphical user interface (GUI) applications with the help of the <a href="https://docs.oracle.com/javase/tutorial/uiswing/start/about.html">Java Swing</a> widget toolkit and the <a href="https://docs.oracle.com/javase/8/javase-clienttechnologies.htm">JavaFX</a> software platform.</i>
 
 ###[Assignment 1](https://github.com/alexboii/Assignments/tree/master/Vanier%20College/420-203%20%E2%80%93%20Program%20Development%20for%20a%20Graphical%20Environment/Assignment%201) &nbsp; <img src="https://github.com/alexboii/Assignments/blob/master/Icons/java-plain.png" width="3%" height="3%">
 
