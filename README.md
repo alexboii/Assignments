@@ -4,7 +4,7 @@
 #Table of Contents
 <ul>
   <li> <a href="#assignments"> General Purpose Description</a> </li>
-  <li> McGill University
+  <li>  <a href="#McGill">McGill University</a>
       <ol>
       <li><a href="#comp-206---software-systems">COMP 206 - Software Systems</a>
       <li><a href="#comp-250---introduction-to-computer-science">COMP 250 - Introduction to Computer Science</a>
@@ -13,7 +13,7 @@
       <li><a href="#ecse-321---intro-to-software-engineering">ECSE 321 - Intro to Software Engineering</a>
      </ol>
   </li>
-  <li> Vanier College 
+  <li> <a href="Vanier"> Vanier College</a> 
       <ol>
       <li><a href="#420-202---data-structures--object-oriented-programming">420-202 - Data Structures & Object-Oriented Programming</a>
       <li><a href="#420-203---program-development-for-a-graphical-environment">420-203 - Program Development for a Graphical Environment</a>
