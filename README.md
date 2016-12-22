@@ -13,7 +13,7 @@
       <li><a href="#ecse-321---intro-to-software-engineering">ECSE 321 - Intro to Software Engineering</a>
      </ol>
   </li>
-  <li> <a href="Vanier"> Vanier College</a> 
+  <li> <a href="#Vanier"> Vanier College</a> 
       <ol>
       <li><a href="#420-202---data-structures--object-oriented-programming">420-202 - Data Structures & Object-Oriented Programming</a>
       <li><a href="#420-203---program-development-for-a-graphical-environment">420-203 - Program Development for a Graphical Environment</a>
